@@ -11,7 +11,7 @@ class DynamicArray():
     def __len__(self): 
         return self._size 
 
-    @property.getter #Геттер для вместимости / Capacity getter
+    @property #Геттер для вместимости / Capacity getter
     def spacity(self):
         return self._capacity
 
